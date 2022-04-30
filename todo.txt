@@ -1,0 +1,39 @@
+make:mail SendReports
+
+config/mail.php
+
+'from' => [
+        'address' => env('MAIL_FROM_ADDRESS'),
+        'name' => env('MAIL_FROM_NAME'),
+    ],
+
+
+.env
+MAIL_FROM_ADDRESS=support@stoneacre.co.uk
+## MAIL_FROM_NAME="${APP_NAME}"
+MAIL_FROM_NAME="Stoneacre"
+
+build()
+
+Notes: No need dependency injection in this scenraio
+
+Mailtrap setting:
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=d155ae10381568
+MAIL_PASSWORD=008a242770a38e
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=support@stoneacre.co.uk
+## MAIL_FROM_NAME="${APP_NAME}"
+MAIL_FROM_NAME="Stoneacre"
+-------------------------------------
+queue
+I have directly used queue() instead of send(). Therefore the queue is getting processed. Therefore no need to run php artisan queue:work
+
+-------------------------------------
+email blade
+correct test data
+
+-------------------------------------
+ftp credentials
