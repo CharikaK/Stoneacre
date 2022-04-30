@@ -13,6 +13,7 @@ class uploadDataTest extends TestCase
 
     use RefreshDatabase;
 
+    // test array
     public $importedData = array(
         0 =>[
             0 => "NF18LDB",
@@ -42,6 +43,7 @@ class uploadDataTest extends TestCase
         ]
         );
 
+        // test images validate
     public $headers = array(  
         0 => "REG",
         1 => "MAKE",
