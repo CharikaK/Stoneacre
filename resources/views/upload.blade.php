@@ -14,16 +14,13 @@
 
         <form action="{{ route('file.upload') }}" method="POST" enctype="multipart/form-data">
             @csrf
-            <div class="row">
-  
+            <div class="row">  
                 <div class="col-md-6">
                     <input type="file" name="file" class="form-control">
-                </div>
-   
+                </div>   
                 <div class="col-md-6">
                     <button type="submit" class="btn btn-success">Upload</button>
-                </div>
-   
+                </div>   
             </div>
         </form>
   
