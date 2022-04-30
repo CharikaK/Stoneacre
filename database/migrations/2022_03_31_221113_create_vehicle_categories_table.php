@@ -20,7 +20,7 @@ class CreateVehicleCategoriesTable extends Migration
             $table->string('range');
             $table->string('model');
             $table->string('vehicle_type');
-            $table->text('derivative');
+            $table->text('derivative'); // this will be removed
             $table->index(['make','range','model']); 
             $table->timestamps();
         });

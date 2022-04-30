@@ -15,6 +15,7 @@ class CreateDerivativesTable extends Migration
     {
         Schema::create('derivatives', function (Blueprint $table) {
             $table->id();
+            $table->string('reg_number');
             $table->text('description');
             $table->date('date_at_forecourt');
             $table->timestamps();
