@@ -9,6 +9,7 @@
         "prod": "npm run production",
         "production": "mix --production"
     },
+
     "devDependencies": {
         "autoprefixer": "^10.4.5",
         "axios": "^0.21",
