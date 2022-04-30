@@ -7,24 +7,6 @@
   
 <body>
 
-{{-- <div class="container px-4" style="margin-top:100px;">
-
-    <div class="row">
-      <form method="post" action="{{route('file.download')}}" enctype="multipart/form-data">
-        @csrf
-        <div class="p-3 border bg-light">
-          <div class="input-group input-group-sm mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-sm">Make</span>
-            <input id="make" type="text" name="make" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-          </div>
-         </div>
-         <button type="submit" class="btn btn-success">Download</button>
-      </form>
-    </div>
-
-</div> --}}
-
-
 <div class="container">
    
   <div class="panel panel-primary">

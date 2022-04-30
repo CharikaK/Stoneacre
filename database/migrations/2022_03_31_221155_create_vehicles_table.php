@@ -23,7 +23,7 @@ class CreateVehiclesTable extends Migration
             $table->integer('milage');
             $table->float('price',8,2);
             $table->float('vat',8,2);
-            $table->dateTime('date_at_forecourt')->nullable();
+            $table->dateTime('date_at_forecourt')->nullable(); // this will be removed
             $table->boolean('available');
             $table->timestamps();
         });

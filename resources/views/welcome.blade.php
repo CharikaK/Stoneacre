@@ -13,15 +13,13 @@
         <div class="columns-1">
             <p> Use this interface to upload and download the data </p>
         </div>
-
         <div class="flex flex-row py-2 px-3 space-x-4">
             <div class="basis-1/4">
-                <a href="/upload-data" class="cursor-pointer bg-green-700 rounded py-2 px-5 space-x-4 mr-4 text-white " > Upload Data </a> 
-                <a href="/download-file" class="cursor-pointer bg-green-700 rounded py-2 px-5 space-x-4 mr-4 text-white " > Download Data </a>              
-            </div>
-               
+                <a href="/upload-data" class="cursor-pointer bg-green-700 rounded py-2 px-5 space-x-4 mr-4 text-white" >Upload Data</a> 
+                <a href="/download-file" class="cursor-pointer bg-green-700 rounded py-2 px-5 space-x-4 mr-4 text-white" >Download Data</a>              
+            </div>               
         </div>
     </div>
-</body>
 
+</body>
 </html>

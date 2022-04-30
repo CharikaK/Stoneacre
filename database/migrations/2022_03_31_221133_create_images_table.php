@@ -20,7 +20,7 @@ class CreateImagesTable extends Migration
             $table->string('img_2');
             $table->string('img_3');
             $table->string('img_4')->nullable();
-            $table->string('img_5')->nullable();
+            $table->string('img_5')->nullable(); // can increase the columns later if needed
             $table->timestamps();
         });
     }

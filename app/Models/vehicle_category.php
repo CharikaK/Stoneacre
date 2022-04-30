@@ -14,7 +14,7 @@ class vehicle_category extends Model
 
     protected $fillable=['id', 'make', 'range', 'model', 'vehicle_type','derivative', 'created_at', 'updated_at'];
 
-    // One vehicle category has many vehicles
+    /** Relationship */
     public function vehicle(){
         return $this->hasMany(vehicle::class,'id','cat_id');
     }

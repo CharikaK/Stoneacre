@@ -22,5 +22,3 @@ Route::get('/upload-data',[DataFilesController::class, 'index']);
 Route::post('/upload-file',[DataFilesController::class, 'store'])->name('file.upload');
 Route::get('/download-file',[DataFilesController::class, 'downloadDataForm']);
 Route::post('/download',[DataFilesController::class, 'download'])->name('file.download');
-
-Route::get('/test',[DataFilesController::class, 'test']);

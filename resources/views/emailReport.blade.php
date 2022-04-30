@@ -29,7 +29,7 @@
           </div>
         </div>
       </div>
-      {{-- Padded data --}}
+      {{-- Passed data --}}
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
