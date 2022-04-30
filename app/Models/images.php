@@ -14,6 +14,7 @@ class images extends Model
 
     protected $fillable = ['id', 'reg_number', 'img_1', 'img_2', 'img_3', 'img_4', 'img_5', 'created_at', 'updated_at'];
 
+    /** Relationship */
     public function vehicle()
     {
         return $this->belongsTo(vehicle::class,'reg','reg_number');
